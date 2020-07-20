@@ -17,7 +17,7 @@ Une fois Python installé, vous aurez également besoin d'une série de packages
 - pip install numpy
 - pip install engineering_notation
 
-Dans le fichier files/identifiants_fmz.txt, écrivez votre pseudo, votre mot de passe et le token de cookie d'auto-connection sur trois lignes consécutives. Pour trouver ce token, utiliser cette extension:
+Dans le fichier files/identifiants_fmz.txt, écrivez votre pseudo, votre mot de passe et le token de cookie d'auto-connection sur trois lignes consécutives. Pour trouver ce token, utiliser cette extension. Le token doit ressembler à une série de chiffres et de lettres associées à un mot clé "PHPSESSID".
 https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=fr
 
 Enfin, lancez le programme, toujours via le terminal. Voyagez jusqu'au fichier "main.py" à l'aide de la commande cd et puis entrez la commande suivante:

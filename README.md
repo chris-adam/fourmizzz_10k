@@ -22,6 +22,7 @@ https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfd
 
 Enfin, lancez le programme, toujours via le terminal. Voyagez jusqu'au fichier "main.py" à l'aide de la commande cd et puis entrez la commande suivante:
 - python main.py
+
 Si ça ne fonctionne pas, replacez python par py ou python3. Sinon, python est mal installé ou vous n'êtes pas dans le bon dossier. Vérifiez également que Google Chrome est installé et à jour. Il est également possible que chromedriver ne soit pas à jour. Pour cela, télécharger la nouvelle version et placer le ficher "chromedriver.exe" dans le même dossier que émain.py".
 https://chromedriver.chromium.org/downloads
 

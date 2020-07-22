@@ -289,7 +289,8 @@ def get_new_convoys():
                     # Leave the loop if there is no more message to read
                     except TimeoutException:
                         # Calculate the remaining amount if needed
-                        if wait_for_elem(driver, "//*[@id='forum']/div["+str(j-1)+"]/a", By.XPATH, 2).text != "anne" \
+                        if wait_for_elem(driver, "//*[@id='forum']/div["+str(j-1)+"]/a", By.XPATH, 2).text \
+                                != get_identifiants_fmz()[0] \
                                 or len(quantite) > 0:
                             convoy_link = get_convoy_link(destinataire)
                             post_forum("[url="+convoy_link+"]"+destinataire+"[/url]\n\n"
@@ -298,7 +299,7 @@ def get_new_convoys():
                             log("Forum", "Convoy countdown update", destinataire+"'s convoys updated")
 
                             if total_amount <= 0:
-                                send_pm("anne", "[Convoys finished]",
+                                send_pm(get_identifiants_fmz()[0], "[Convoys finished]",
                                         destinataire+"'s convoys finished, activation requested")
                         break
                     # Go to the next message
@@ -407,7 +408,7 @@ def reconnect():
     cookies = {'PHPSESSID': cook}
 
     options = webdriver.ChromeOptions()
-    # options.add_argument('--headless') TODO enlever si c'est bon
+    options.add_argument('--headless')
     options.add_argument("--start-maximized")
     driver = webdriver.Chrome(options=options)
     try:

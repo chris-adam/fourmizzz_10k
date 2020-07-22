@@ -27,7 +27,7 @@ Si ça ne fonctionne pas, replacez python par py ou python3. Sinon, python est m
 https://chromedriver.chromium.org/downloads
 
 De mon coté, le programme ne plante quasiment jamais. Si il plante, cela peut arriver pour deux raisons.
-- La connection au webdriver a échoué. Ça arrive rarement mais ça arrive. il suffit de relancer le programme.
+- La connection au webdriver a échoué. Ça arrive rarement mais ça arrive. il suffit de relancer le programme ou d'utiliser l'option "repair".
 - Google Chrome s'est mis à jour alors la versio ne correspond plus à celle de chromedriver. Suivez le lien ci-dessus pour le mettre à jour.
 
 Si vous avez le moindre problème, contactez moi de préférence sur discord: EvilAnt#5363

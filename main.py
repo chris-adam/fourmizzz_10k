@@ -8,7 +8,7 @@ from tui import menu
 
 if __name__ == "__main__":
     matplotlib.use('QT4Agg')
-    os.chdir("C:\\Users\\Chris\\PycharmProjects\\fmz")
+    # os.chdir("C:\\Users\\Chris\\PycharmProjects\\fmz")
 
     updaters = list()
     updaters.append(update.HuntingFields())

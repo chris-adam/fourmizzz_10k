@@ -199,7 +199,11 @@ def get_new_convoys():
                 # Reset the forum
                 driver.get(url)
                 # Click on the forum name
-                wait_for_elem(driver, forum_id, By.CLASS_NAME).click()
+                try:
+                    wait_for_elem(driver, forum_id, By.CLASS_NAME).click()
+                except TimeoutException:
+                    forum_id = forum_id.replace("categorie_forum", "ligne_paire")
+                    wait_for_elem(driver, forum_id, By.CLASS_NAME).click()
                 sleep(1)
 
             # Waits if the element didn't load yet

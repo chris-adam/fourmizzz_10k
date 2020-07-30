@@ -234,7 +234,10 @@ def get_new_convoys():
                 topic_name = wait_for_elem(driver, "//*[@id='form_cat']/table/tbody/tr["+str(i)+"]/td[2]/a",
                                            By.XPATH, 2).text
                 # Find the name of the requester and the amount requested
-                destinataire, total_amount = topic_name.split(" - ")[1:3]
+                try:
+                    destinataire, total_amount = topic_name.split(" - ")[1:3]
+                except ValueError:
+                    continue
                 total_amount = int(EngNumber(total_amount.replace(" ", "").replace("\u202f", "")))
 
                 # Click to open the sub forum

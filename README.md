@@ -35,6 +35,9 @@ En utilisant le programme, faites le code "45" + Enter pour afficher les logs de
 Si vous avez le moindre problème, contactez moi de préférence sur discord: EvilAnt#5363
 
 </br>
-<b>Rapport hebdomadaire automatique</b>
 
+<b>Rapport hebdomadaire automatique</b>
 <img src="https://zupimages.net/up/20/36/rnpu.png" width="80%">
+
+<b>Comptage automatique des convois</b>
+<img src="https://i.gyazo.com/7fe27fb604586e33c0153c61fdbfd3fa.png" width="80%">

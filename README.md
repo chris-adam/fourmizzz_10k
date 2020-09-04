@@ -32,7 +32,7 @@ De mon coté, le programme ne plante quasiment jamais. Si il plante, cela peut a
 
 En utilisant le programme, faites le code "45" + Enter pour afficher les logs de ce qui est fait et quand. Je l'utilisee très souvent.
 
-Si vous avez le moindre problème, contactez moi de préférence sur discord: EvilAnt#5363
+Si vous avez le moindre problème, contactez moi de préférence sur discord: Zarki#5363
 
 </br>
 

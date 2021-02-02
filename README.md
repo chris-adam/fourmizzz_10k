@@ -1,4 +1,4 @@
-Ceci est un programme permettant de récupérer des données de fourmizzz et de générer un rapprot hebdomadaire sur les floods et les convois effectués. De plus, il gère le décompte des convois automatiquement.
+Ceci est un programme permettant de récupérer des données de fourmizzz et de générer un rapport hebdomadaire sur les floods et les convois effectués. De plus, il gère le décompte des convois automatiquement.
 Je n'avais pas prévu de faire un programme de cette taille (bien qu'il ne sois pas très grand), ni de le partager. Alors, il est très mal optimisé et documenté. Je le laisse à disposition de mon alliance, la 10k. Je suis désolé mais le gros est en anglais, certains parties sont en français pour des raisons obscures.
 
 

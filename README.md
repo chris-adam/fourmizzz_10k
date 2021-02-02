@@ -28,9 +28,9 @@ https://chromedriver.chromium.org/downloads
 
 De mon coté, le programme ne plante quasiment jamais. Si il plante, cela peut arriver pour deux raisons.
 - La connection au webdriver a échoué. Ça arrive rarement mais ça arrive. il suffit de relancer le programme ou d'utiliser l'option "repair".
-- Google Chrome s'est mis à jour alors la versio ne correspond plus à celle de chromedriver. Suivez le lien ci-dessus pour le mettre à jour.
+- Google Chrome s'est mis à jour alors la version ne correspond plus à celle de chromedriver. Suivez le lien ci-dessus pour le mettre à jour.
 
-En utilisant le programme, faites le code "45" + Enter pour afficher les logs de ce qui est fait et quand. Je l'utilisee très souvent.
+En utilisant le programme, faites le code "45" + "Enter" pour afficher les logs de ce qui est fait et quand. Je l'utilise très souvent.
 
 Si vous avez le moindre problème, contactez moi de préférence sur discord: Zarki#5363
 

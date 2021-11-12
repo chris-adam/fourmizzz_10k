@@ -7,3 +7,4 @@ weasyprint
 Pillow
 numpy
 engineering_notation
+PyQt5

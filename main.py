@@ -1,5 +1,8 @@
 import os
 
+GTK_FOLDER = r'C:\Program Files\GTK3-Runtime Win64\bin'
+os.environ['PATH'] = GTK_FOLDER + os.pathsep + os.environ.get('PATH', '')
+
 import matplotlib
 
 from data import update
@@ -7,7 +10,7 @@ from tui import menu
 
 
 if __name__ == "__main__":
-    matplotlib.use('QT4Agg')
+    matplotlib.use('QT5Agg')
     # os.chdir("C:\\Users\\Chris\\PycharmProjects\\fmz")
 
     updaters = list()

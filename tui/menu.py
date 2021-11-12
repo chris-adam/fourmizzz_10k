@@ -47,7 +47,7 @@ def main_menu(updaters):
                 options_menu(choices)
             elif choice == 8:
                 for updater in updaters:
-                    if not updater.isAlive():
+                    if not updater.is_alive():
                         updaters.remove(updater)
                         new_thread = type(updater)()
                         new_thread.start()
